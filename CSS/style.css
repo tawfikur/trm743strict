@@ -1,0 +1,299 @@
+/*Global CSS*/
+*{
+    margin: 0;
+}
+body{
+    font-family: lato;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+   width: 16.67%;
+   float: left;
+}
+.col-3 {
+   width: 25%;
+   float: left;
+}
+.col-4 {
+   width: 33.33%;
+   float: left;
+}
+.col-5 {
+   width: 41.67%;
+   float: left;
+}
+.col-6 {
+   width: 50%;
+   float: left;
+}
+.col-7 {
+   width: 58.33%;
+   float: left;
+}
+.col-8 {
+   width: 66.67%;
+   float: left;
+}
+.col-9 {
+   width: 75%;
+   float: left;
+}
+.col-10 {
+   width: 83.33%;
+   float: left;
+}
+.col-11 {
+   width: 91.67%;
+   float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+} 
+
+section{
+    float: left;
+    width:100%;
+}
+
+/*topbar CSS*/
+.topbar{
+ background-color: #f6f9f9;
+ padding: 20px 0px;
+ width:100%;
+}
+.topbar .logo{
+   margin-left: 40px;
+}
+/*Banner Secttion CSS*/
+.banner{
+    background:url(../images/banner-bg.png);
+    height: 610PX;
+    background-position:center;
+    background-size:cover;
+}
+.banner .hero-area{
+   text-align: center;
+   padding-top: 150px;
+}
+.banner .hero-area h1{
+    color: #fff;
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+.banner .hero-area .blue-line{
+    height: 2px;
+    width: 50%;
+    background-color: #15a4fa;
+    margin: 0 auto;
+}
+.banner .hero-area p{ 
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.banner .hero-area .btn-cta{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.banner .hero-area .btn-cta:hover{
+    background-color: cornflowerblue;
+}
+
+/*Design Section CSS*/
+.design{
+  padding: 50px 0px;
+  text-align: center;
+
+}
+.design h2{
+ font-size:40px ;
+ color:#2d3950 ;
+ margin-bottom: 20px;
+}
+.design p{
+ font-size: 20px;
+ color: #999;
+ line-height: 1.7;
+}
+
+/*Feature section CSS*/
+.feature{
+    padding: 50px 0px;
+}
+.feature .box{
+    text-align: center;
+}
+.feature .box img{
+    margin-bottom: 20px;
+}
+.feature .box h3{
+ font-size: 22px;
+ margin-bottom: 10px;
+ color: #2d3950;
+}
+
+.feature .box p{
+  font-size:20px;
+  color: #999;
+  margin: 0 10%;
+  line-height: 1.5;
+}
+
+/*portfolio section CSS*/
+.portfolio{
+    padding: 50px 0px;
+    background:#f6f9f9;
+}
+.portfolio h2{
+    font-size: 40px;
+    margin-bottom:30px;
+    color: #2d3950;
+    text-align: center;
+}
+.portfolio p{ 
+    color: #909090;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.img-width{
+    width: 100%;
+
+}
+.portfolio-box{
+     position: relative;
+     margin: 10px;
+
+}
+.hover-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #15a4fa;
+    opacity:0;
+
+}
+.hover-box ul{
+    padding-left:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.hover-box ul li{
+    list-style: none;
+    display: inline-block;
+    background: #15a4fa;;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border:1px solid #fff;
+    margin: 0 5px;
+    border-radius:3px;
+
+  
+}
+.hover-box ul li i{
+    color: #fff;
+}
+.portfolio-box:hover .hover-box{
+    opacity:1;
+
+}
+/*Contact CSS*/
+.contact{
+    padding: 50px 0;
+    height: 550px;
+    background: #2d3950;
+    background-position: center;
+    background-size:cover;
+}
+.contact h2{
+    color:#fff;
+    font-size: 40px;
+    margin-bottom:20px;
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    font-size: 20px;
+    color:#fff;
+    margin-bottom: 60px;
+}
+
+.contact form{
+    width: 60%;
+    margin:0 auto;
+}
+.contact form .form-control{
+    width: 100%;
+    padding:20px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    box-sizing: border-box;
+}
+.contact form .check{
+    color: white;
+}
+.contact form .checkbox{
+    margin-top: 15px;
+}
+.contact form .btn-submit{
+    color: #fff;
+    float: right;
+    background: transparent;
+    padding: 10px 40px;
+    border: 1px solid #15a4fa ;
+    display: inline-block;
+}
+.contact form .btn-submit:hover{
+    background-color: #15a4fa;
+    transition: 0.5s linear;
+}
+/*footer section CSS*/
+
+.footer{
+    margin-top: 50px 0;
+}
+.footer p{
+    font-size: 15px;
+    padding: 10px;
+}
+.footer ul{
+    padding-left: 0;
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+.footer li{
+    display: inline-block;
+}
+.footer li i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #15a4fa;
+}
